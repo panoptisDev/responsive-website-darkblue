@@ -1,0 +1,150 @@
+*{
+  margin:0;padding:0;box-sizing:border-box;
+}
+.clearfix:after{content:'';clear:both;display:flex;}
+body {font-family: 'Poppins', sans-serif;background-color: gray;}
+.header {width:100%;height:100%;} 
+.navbar {width: 100%;height:100px;position:fixed;background-color:rgb(3, 3, 56);}
+.nav_container {display: flex;height:100px;align-items: center;justify-content:space-between;
+  }
+.container {width:1200px;margin: 0 auto;}
+.nav-logo img {height:30px;width: 110px;margin:20px;}
+
+.navbar__right {
+  display: flex;
+  list-style-type:none;
+}
+.navbar__right li a{text-decoration: none;color:#fff;font-size:18px;font-weight: 500;margin:0 20px;}
+.header {background-color: rgb(8, 49, 124);}
+.row {
+  display: flex;
+  width: 100%;
+}
+.toggle {
+  position:fixed;top:30px;right: 25px;color:#fff;
+  display:flex;align-items:center;justify-content:center;}
+
+.col-6 {
+  width: 50%;margin: 100px 0 0 10px;
+}
+.header-content {display: flex;align-items: center;height:100px;color:#fff;margin-top:350px;}
+.header-ul {list-style: none;display: flex;}
+.header-ul li{width: 50px;height: 50px;border: 2px solid rgb(241, 97, 97);border-radius: 50%;
+  display:flex;align-items:center;justify-content: center;margin:0 20px 0 0;
+  }
+.header-sections h1 {font-size: 50px;font-weight: 700;margin:15px 0;}
+.header-sections p {font-size: 25px;}
+.btn {outline: none;margin-top:30px;}
+.btn a {text-decoration: none;border:2px solid rgb(158, 12, 49);border-radius:25%;
+  padding: 10px 15px;background-color:rgb(230 8 8);
+}
+.btn-youtobe{float: right;margin:-36px 325px 0 0;}
+.services {background-color:rgba(6, 3, 48, 0.849);width: 100%;}
+.services__head {height:350px;padding-top: 100px;color:#fff;}
+.services__head  h3 {width: 60px;margin:0 auto;margin-bottom:20px;color: red;}
+.services__head  h1 {width:200px;margin:0 auto;margin-bottom:20px;}
+.services__head  p {width: 600px;margin:0 auto;text-align: center;}
+#div1 {width:100px;height:5px;background-color:rgb(231, 27, 27);margin:50px auto;}
+
+.Description {background-color: rgba(2, 2, 36, 0.945);transition:background 0.5s yellow;}
+.icons-des-1 {width:30%;height:200px;margin:20px;box-shadow:2px 2px yellow;background-color:rgb(15, 3, 70);
+  text-align:center;padding:20px;float:left;color:#fff;border-radius:10px;transition: all 1s linear;}
+  .icons-des-1:hover{background-color:red;}
+
+  .About {background-color: cadetblue;}
+.About_me {width: 100%;height:100px;padding:30px 0;}
+.About_me h1,.About_me p{text-align: center;color: #fff;}
+
+.About-des{width: 100%;height:200px;margin:50px 0;}
+.About-des h2,.About-des p{color: #fff;margin-bottom: 20px;}
+.column {width: 50%;float: left;}
+.column .Intro-1 {width:50%;float: left;font-size:20px;margin:30px 0;}
+.column h5 {color: rgb(224, 64, 86);}
+.column h6 {color: rgb(245, 244, 244);}
+
+.Animated{background-color: rgb(40, 26, 100);}
+.col-ani {width:50%;float: left;padding:20px 10px 20px 0;}
+.col-ani h3 {color: red;margin-left: 50px;}
+.col-ani h1{color: #fff;margin: 10px 0;width:500px;margin:0 auto;font-size:50px;}
+.para {color:#fff;width:500px;margin: 10px auto 40px;}
+.col-ani a{text-decoration: none;border:1px solid red;border-radius:20%;padding:7px 12px;
+background-color: red;margin-left: 50px;color: #fff;}
+.skill-bar{background-color: rgba(4, 2, 19, 0.185) !important;display: block;position:relative;height:5px;
+}
+
+.col-ani-2 {color: #fff;margin-top:10px auto 0px;}
+.message1 {float: right;margin: -18px -18px 0 0;}
+.message2 {float: right;margin: -18px 16px 0 0;color: #fff;}
+.message3 {float: right;margin: -18px 70px 0 0;color: #fff;}
+.message4 {float: right;margin: -18px 188px 0 0;color: #fff;}
+.message5 {float: right;margin: -18px 188px 0 0;color: #fff;}
+.skill-bar div{background-color: red;height: 100%;}
+ 
+.contact{background-color: rgba(2, 2, 36, 0.945);padding:20px;}
+.contact-1 {padding: 30px 0 0 0;}
+.contact-12 {text-align: center;width: 100%;}
+.contact-12 h3{color: red;}
+.contact-12 h1{color: #fff;font-size:60px;font-weight:700;}
+.contact-12 p{color: #fff;width: 600px;margin: 5px auto;}
+
+.contact-13 div{width:30%;height: 100px;float: left;background-color: rgb(40, 26, 100);margin: 20px 3% 0 0;
+  padding: 30px;text-align: center;border-radius: 10px;transition:all 1s linear}
+  .contact-13 div:hover{background-color: rgb(120, 206, 35);}
+.contact-13 a{text-decoration: none;color: red;}
+.contact-13 p{color: #fff;}
+
+.form{background-color: rgba(2, 2, 36, 0.945) ;}
+.form-sub {width: 100%;height: 400px;padding:20px 0;}
+.name,.email,.subject {height:50px;background-color:rgba(207, 132, 132, 0.945);border-radius:5px;
+   transition:all 0.5s linear;}
+.name:hover,.email:hover,.subject:hover{background-color: #fff;}
+.name{width: 47%;margin:15px 6% 15px 0;}
+.email{width: 47%;}
+.subject {width: 100%;margin-bottom:15px;}
+.message-form{width: 100%;height:100px;background-color:rgba(207, 132, 132, 0.945);
+  transition:all 0.5s linear;}
+  .message-form:hover{background-color:#fff;}
+.submit {width: 130px;height: 55px;background-color: rgb(7 7 62 / 95%);color: #fff;border-radius: 25px;
+  border:1px solid #fff;margin:20px 0 0 48%;transition:all 0.5s linear;}
+.submit:hover {background-color: rgb(158, 12, 49);}
+
+@media(max-width:765px){
+  .container {
+    width: 100%;
+    padding: 0 20px;
+  }
+  .col-6{width: 100%;margin: -150px auto 0;
+    height:550px;
+  }
+ 
+  .col-6 img{display: none;}
+  .col-6 h1{font-size: 22px;}
+  .col-6 p{font-size:15px;}
+  .btn .btn-youtobe {margin: -40px 0 0 0;}
+  .services__head {width: 100%;}
+  .services__head p{width: 100%;}
+  .icons-des-1{width:40%;}
+  .icons-des-1 h1{font-size: 20px;}
+  .icons-des-1 p{font-size:12px;}
+  .About_me{width:100%;}
+  .About-des {text-align: center;}
+  .About-des img{display: none;}
+  .column {width:100%;}
+  .col-ani {width: 100%;}
+  .col-ani p{width: 100%;}
+  .contact-12 p {width: 100%;}
+  .contact-13 div{width:100%;}
+  .contact-13 p {font-size:12px;}
+  .form-sub{width:100%;}
+  .navbar__right {flex-direction: column;width:100%;
+    align-items:center;background:rgb(4, 4, 78) ;position:fixed;top:0;margin: 0 0 0 -20px;}
+  
+  .navbar__right li a{
+    display:block;padding:12px 0;
+
+  }
+  .toggle{display:flex;
+  }
+
+}
+
