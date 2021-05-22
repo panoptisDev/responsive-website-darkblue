@@ -20,7 +20,6 @@ function App() {
       <Animated />
       <Contact />
       <Form />
-      
     </div>
   );
 }

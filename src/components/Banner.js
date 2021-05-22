@@ -4,6 +4,7 @@ import {FaTwitterSquare} from 'react-icons/fa'
 import {FaPinterest} from 'react-icons/fa'
 import {FaInstagramSquare} from 'react-icons/fa'
 import {FaYoutube} from 'react-icons/fa'
+import img from '../images/img2.png'
 const Banner = () => {
     return (
         <div className='header'>
@@ -19,25 +20,22 @@ const Banner = () => {
                                 <li><FaInstagramSquare /></li>
                                 </ul>
                                 <h1>I am Anand kumar das</h1>
-                                <p>i'm specilized in EEE and i know front-end technoloy and its my passion</p>
+                                <p>i'm specilized in EEE and i know front-end technoloy and looking carrer in it secter</p>
                                 <div className='btn'>
-                                    <a href='#' className='bnt-btn'>My portfolio</a>
-                                    <div>
-                                    <a href='#' className='btn-youtobe'><FaYoutube  /></a>
+                                    <div className='btn-btn'>
+                                    <a href='#'>My portfolio</a>
                                     </div>
-                                   
-
+                                    <div className='btn-youtobe'>
+                                    <a href='#' ><FaYoutube  /></a>
+                                    </div>
                                 </div>
                             </div>
                             
                         </div>
                     </div>
-                    <div className='col-6'>
-                        <div className='picture'>
-                            <img src='/images/img1.png' alt='images' />
-                        </div>
-
-                     </div>
+                    <div className='picture'>
+                            <img src={img} alt='images' />
+                    </div>
                 </div>
             </div>
         </div>

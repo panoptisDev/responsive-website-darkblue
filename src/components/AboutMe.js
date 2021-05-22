@@ -1,4 +1,6 @@
 import React from 'react'
+import img from '../images/img1.png'
+import {Linking} from 'react'
 
 const AboutMe = () => {
     return (
@@ -11,7 +13,7 @@ const AboutMe = () => {
                 </div>
                 <div className='About-des'>
                     <div className='column'>
-                         <img src='/images/img2.png' alt='img2' />
+                         <img src={img} alt='img2' />
                     </div>
                     <div className='column'>
                         <h2>Hi There</h2>
@@ -22,7 +24,7 @@ const AboutMe = () => {
                         <div className='Intro clearfix'>
                             <div className='Intro-1'>
                                 <h5>Name:</h5>
-                                <h6>Anand umar das</h6>
+                                <h6>Anand kumar das</h6>
                             </div>
                             <div className='Intro-1'>
                                 <h5>Phone:</h5>
@@ -30,11 +32,11 @@ const AboutMe = () => {
                             </div>
                             <div className='Intro-1'>
                                 <h5>Email:</h5>
-                                <h6>anand003das@gmail.com</h6>
+                                <h6>anand003das@gmail.com</h6> 
                             </div>
                             <div className='Intro-1'>
                                 <h5>Linkdin:</h5>
-                                <h6>Anand003</h6>
+                                <h6><a href='https://www.linkedin.com/in/anand-kumar-das-76b7271a1' target='blank' >Click me</a></h6>
                             </div>
                         </div>
                         
